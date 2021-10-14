@@ -13,6 +13,8 @@
 		D45B88A227182A9500DF470F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45B88A027182A9500DF470F /* Main.storyboard */; };
 		D45B88A427182A9500DF470F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45B88A327182A9500DF470F /* Assets.xcassets */; };
 		D45B88A727182A9500DF470F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45B88A527182A9500DF470F /* LaunchScreen.storyboard */; };
+		D45B88B1271832AA00DF470F /* SingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B88B0271832AA00DF470F /* SingletonClass.swift */; };
+		D45B88B32718466000DF470F /* MainClass_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B88B22718466000DF470F /* MainClass_1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D45B88A327182A9500DF470F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D45B88A627182A9500DF470F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D45B88A827182A9500DF470F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45B88B0271832AA00DF470F /* SingletonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonClass.swift; sourceTree = "<group>"; };
+		D45B88B22718466000DF470F /* MainClass_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainClass_1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		D45B889927182A9500DF470F /* Design Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				D45B88AF2718323600DF470F /* 1_Singleton */,
 				D45B88AE27182EF700DF470F /* System */,
 			);
 			path = "Design Patterns";
@@ -73,6 +78,15 @@
 				D45B88A827182A9500DF470F /* Info.plist */,
 			);
 			path = System;
+			sourceTree = "<group>";
+		};
+		D45B88AF2718323600DF470F /* 1_Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				D45B88B0271832AA00DF470F /* SingletonClass.swift */,
+				D45B88B22718466000DF470F /* MainClass_1.swift */,
+			);
+			path = 1_Singleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D45B88B1271832AA00DF470F /* SingletonClass.swift in Sources */,
+				D45B88B32718466000DF470F /* MainClass_1.swift in Sources */,
 				D45B889F27182A9500DF470F /* ViewController.swift in Sources */,
 				D45B889B27182A9500DF470F /* AppDelegate.swift in Sources */,
 				D45B889D27182A9500DF470F /* SceneDelegate.swift in Sources */,
