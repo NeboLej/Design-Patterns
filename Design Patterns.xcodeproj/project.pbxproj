@@ -15,6 +15,13 @@
 		D45B88A727182A9500DF470F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45B88A527182A9500DF470F /* LaunchScreen.storyboard */; };
 		D45B88B1271832AA00DF470F /* SingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B88B0271832AA00DF470F /* SingletonClass.swift */; };
 		D45B88B32718466000DF470F /* MainClass_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B88B22718466000DF470F /* MainClass_1.swift */; };
+		D45B88B727184B1E00DF470F /* ShapeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B88B627184B1E00DF470F /* ShapeProtocol.swift */; };
+		D45B88B927184C1000DF470F /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B88B827184C1000DF470F /* Circle.swift */; };
+		D45B88BB27184CD900DF470F /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B88BA27184CD900DF470F /* Square.swift */; };
+		D45B88BE27184DE500DF470F /* FactoryShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B88BD27184DE500DF470F /* FactoryShapes.swift */; };
+		D45B88C127184FAF00DF470F /* MainClass_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B88C027184FAF00DF470F /* MainClass_2.swift */; };
+		D45B88C32718538000DF470F /* info_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B88C22718538000DF470F /* info_1.swift */; };
+		D45B88C5271853AB00DF470F /* info_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B88C4271853AB00DF470F /* info_2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +35,13 @@
 		D45B88A827182A9500DF470F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D45B88B0271832AA00DF470F /* SingletonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonClass.swift; sourceTree = "<group>"; };
 		D45B88B22718466000DF470F /* MainClass_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainClass_1.swift; sourceTree = "<group>"; };
+		D45B88B627184B1E00DF470F /* ShapeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeProtocol.swift; sourceTree = "<group>"; };
+		D45B88B827184C1000DF470F /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		D45B88BA27184CD900DF470F /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		D45B88BD27184DE500DF470F /* FactoryShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryShapes.swift; sourceTree = "<group>"; };
+		D45B88C027184FAF00DF470F /* MainClass_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainClass_2.swift; sourceTree = "<group>"; };
+		D45B88C22718538000DF470F /* info_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = info_1.swift; sourceTree = "<group>"; };
+		D45B88C4271853AB00DF470F /* info_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = info_2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,7 @@
 		D45B889927182A9500DF470F /* Design Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				D45B88B52718494300DF470F /* 2_ FactoryMethod */,
 				D45B88AF2718323600DF470F /* 1_Singleton */,
 				D45B88AE27182EF700DF470F /* System */,
 			);
@@ -85,8 +100,38 @@
 			children = (
 				D45B88B0271832AA00DF470F /* SingletonClass.swift */,
 				D45B88B22718466000DF470F /* MainClass_1.swift */,
+				D45B88C22718538000DF470F /* info_1.swift */,
 			);
 			path = 1_Singleton;
+			sourceTree = "<group>";
+		};
+		D45B88B52718494300DF470F /* 2_ FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				D45B88BF27184F6600DF470F /* Factory */,
+				D45B88BC27184D5E00DF470F /* Shapes */,
+				D45B88C027184FAF00DF470F /* MainClass_2.swift */,
+				D45B88C4271853AB00DF470F /* info_2.swift */,
+			);
+			path = "2_ FactoryMethod";
+			sourceTree = "<group>";
+		};
+		D45B88BC27184D5E00DF470F /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				D45B88B627184B1E00DF470F /* ShapeProtocol.swift */,
+				D45B88B827184C1000DF470F /* Circle.swift */,
+				D45B88BA27184CD900DF470F /* Square.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		D45B88BF27184F6600DF470F /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				D45B88BD27184DE500DF470F /* FactoryShapes.swift */,
+			);
+			path = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +205,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D45B88C32718538000DF470F /* info_1.swift in Sources */,
+				D45B88BB27184CD900DF470F /* Square.swift in Sources */,
+				D45B88B927184C1000DF470F /* Circle.swift in Sources */,
 				D45B88B1271832AA00DF470F /* SingletonClass.swift in Sources */,
 				D45B88B32718466000DF470F /* MainClass_1.swift in Sources */,
 				D45B889F27182A9500DF470F /* ViewController.swift in Sources */,
+				D45B88BE27184DE500DF470F /* FactoryShapes.swift in Sources */,
+				D45B88C127184FAF00DF470F /* MainClass_2.swift in Sources */,
+				D45B88C5271853AB00DF470F /* info_2.swift in Sources */,
+				D45B88B727184B1E00DF470F /* ShapeProtocol.swift in Sources */,
 				D45B889B27182A9500DF470F /* AppDelegate.swift in Sources */,
 				D45B889D27182A9500DF470F /* SceneDelegate.swift in Sources */,
 			);
