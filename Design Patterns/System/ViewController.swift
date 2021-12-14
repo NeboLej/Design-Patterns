@@ -11,6 +11,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let observer = ObserverClass()
+        observer.test()
         // Do any additional setup after loading the view.
     }
 
